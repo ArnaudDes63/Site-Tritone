@@ -25,12 +25,14 @@ export default {
   margin: 0;
 }
 
-
 .container{
   position: absolute;
-  margin: 100px 200px;
-  
+  display: flex;
+  padding: 110px;
+  justify-content: center; 
 }
+
+
 h1{  
   color:  #000000;  
   font-size: 40px; 
