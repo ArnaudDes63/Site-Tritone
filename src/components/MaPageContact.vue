@@ -152,21 +152,26 @@ label{
 
     .h2{ 
         position: relative; 
-        width: 375px;        
+        right: 50px;
+        width: 375px; 
+        margin: 30px;   
+          
     }
     
     .btn{
         position: relative;
         display: block;
         width: 200px;
-        margin: 50px;
         top: 10px;
-    }
-    
-    *{
-            position: relative;
+        margin: 60px;
+        
+        }
+        *{
+            
             width: 100%;
-     }
+        }
 }
+
+
 
 </style>
