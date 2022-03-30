@@ -36,7 +36,7 @@ export default {
 <style>
 
 #app{
-  font-family: 'Poiret One', cursive;
+  
   max-height: 100vh;  
 }
 
