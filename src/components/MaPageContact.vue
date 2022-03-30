@@ -97,6 +97,10 @@ img{
     border: 2px solid rgb(0, 0, 0);
 }
 
+.form-group{
+    margin: 0px;
+}
+
 label{
     font-size: 1.3rem;
     margin: 10px;
