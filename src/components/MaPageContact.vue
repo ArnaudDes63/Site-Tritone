@@ -80,7 +80,7 @@ div{
 
 .item{         
     width: 90%;
-    height: 87vh;
+    height: 110vh;
    
 }
 
