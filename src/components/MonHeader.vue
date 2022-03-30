@@ -76,5 +76,15 @@ p{
 	}
 }
 
+@media(max-width:500px) {
+        
+    p {
+		font-size: 1em;
+        padding: 5px;
+        margin-right: -100px;
+        
+	}
+}
+
 
 </style>
