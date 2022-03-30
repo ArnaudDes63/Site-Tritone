@@ -81,13 +81,14 @@ div{
 .item{         
     width: 90%;
     height: 110vh;
-   
+    display: flex;
+      
 }
 
 img{
     position: fixed;
     width: 50%;
-    height: 120%;
+    height: 100%;
     
     
     
@@ -95,6 +96,7 @@ img{
 
 .form-control,.browser-default{
     border: 2px solid rgb(0, 0, 0);
+    text-align: center;       
 }
 
 .form-group{
@@ -104,7 +106,7 @@ img{
 label{
     font-size: 1.3rem;
     margin: 10px;
-    
+     
 }
 
 .text-center{
