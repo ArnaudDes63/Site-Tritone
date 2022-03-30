@@ -37,9 +37,10 @@ export default {
 }
 
 h1{  
+  margin: 90px;
   color:  #f1f1f1;
   text-align: center;
-  font-size: 40px;  
+  font-size: 50px;  
 }
 
 @media screen {
