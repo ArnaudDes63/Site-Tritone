@@ -161,9 +161,12 @@ label{
         width: 200px;
         margin: 50px;
         top: 10px;
-        
-
     }
+    
+    *{
+            position: relative;
+            width: 100%;
+     }
 }
 
 </style>
