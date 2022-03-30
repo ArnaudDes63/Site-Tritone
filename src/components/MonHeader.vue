@@ -20,9 +20,10 @@ export default {
 
 
 .navbar{    
-    position: relative;
+    position: fixed;
     background: rgb(202, 27, 27);
     height: 90px;
+    width: 100%;
 }
 
 img.bg-img{
