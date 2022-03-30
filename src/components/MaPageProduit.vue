@@ -25,10 +25,16 @@ export default {
   margin: 0;
 }
 
+
+.container{
+  position: absolute;
+  margin: 100px 200px;
+  
+}
 h1{  
-  color:  #000000;
-  text-align: center;
-  font-size: 40px;  
+  color:  #000000;  
+  font-size: 40px; 
+  text-align: center; 
 }
 
 
