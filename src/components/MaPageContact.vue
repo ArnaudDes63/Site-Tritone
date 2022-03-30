@@ -58,9 +58,11 @@ export default {
 /* Rezet */
 
 *{
-  margin: 0;
+  margin: 15px;
   padding: 0;
   height: auto;
+  width: 97%;
+
     
 }
 
@@ -76,8 +78,8 @@ div{
     justify-content: center;      
 }
 
-.item{     
-    width: 50%;
+.item{         
+    width: 90%;
     height: 87vh;
    
 }
