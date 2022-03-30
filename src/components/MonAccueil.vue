@@ -55,7 +55,7 @@ export default {
 
 .hero{  
   width: 100%;
-  height: 84.2vh;  
+  height: 100vh;  
   background: linear-gradient(rgba(0, 0, 0, 0.555), transparent), url('../assets/background.jpeg');
   background-size: cover; 
   display: flex;
@@ -76,7 +76,7 @@ img{
 
 .btn{
   position: absolute;
-  font-family: impact;
+  font-weight: bold;  
   color: #FFFFFF !important;
   font-size: 14px;
   text-shadow: 2px 3px 1px #FF2EFF;
@@ -113,8 +113,7 @@ img{
 }
 
 .card h1 {
-    font-family: 'Kosugi Maru', sans-serif;
-    font-family: 'Rock Salt', cursive;
+    
     font-size: 36px;
     font-weight: 300;
     color: #ffffffe3;
@@ -148,7 +147,7 @@ img{
 
 
 .card span {
-    font-family: Raleway, sans-serif;
+    
     padding-left: 10px;
     padding-top: 15px;
     font-size: 35px;
@@ -264,56 +263,5 @@ img{
     width: 150px
   }
 }
-
-
-
-
-
-/* *{
-  margin: 0;
-  padding: 0;
-}
-
-
-.bg-img{
-  position: fixed;
-  width: 100%;
-  height: 100%;
-  background-size: cover;
-  background-position: center;
-  
-}
-
-.btn{
-    position: fixed;
-    width: 100%;
-    height: 60px;
-    border: none;
-    background-color: rgba(209, 103, 103, 0.699);
-    font-size: 2em;
-    color: white;
-    outline: none;
-    transition: 0.3s linear;
-    margin: 5px;   
-}
-
-.btn:hover {
-  transform: rotateY(25deg);
-  box-shadow: -15px 0 15px rgb(0, 0, 0);
-}
-
-.logo{
-  position: fixed;
-  left: 10px;
-  bottom: -80px;
-  width: 350px;
-  height: 450px;
-} */
-
-        
-
-
-
-
 
 </style>
