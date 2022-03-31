@@ -28,7 +28,7 @@
 </form>
 <!-- Default form contact --></div>
 
-    <div class="item"> <img src="../assets/shout.jpg" alt="Photo garçon avec un micro"/> </div>
+    <div class="items"> <img src="../assets/shout.jpg" alt="Photo garçon avec un micro"/> </div>
     
    
 
@@ -67,8 +67,7 @@ export default {
 }
 
 div{    
-    max-width: 100%;    
-    min-height: 0px;
+    max-width: 100%;      
     background-color: rgba(241, 228, 228, 0.233);    
 }
 
@@ -96,7 +95,8 @@ img{
 
 .form-control,.browser-default{
     border: 2px solid rgb(0, 0, 0);
-    text-align: center;       
+    text-align: center;   
+    height: 6vh;    
 }
 
 .form-group{
@@ -115,10 +115,10 @@ label{
 
 .btn{
     display: block;
-    width: 50%;
+    width: 70%;
     height: 60px;
     border: 1px solid black;
-    background-color: rgba(209, 103, 103, 0.699);
+    background-color: rgba(224, 71, 71, 0.836);
     font-size: 18px;
     color: white;
     outline: none;
@@ -133,7 +133,7 @@ label{
 
 
 
-@media (max-width : 501px){
+@media (max-width : 668px){
     img{
         display: block;
         visibility: hidden;       
@@ -142,7 +142,8 @@ label{
     .form-control, .browser-default {
     
         position: relative;     
-        width: 300px;   
+        width: 300px; 
+        height: 6vh;  
         
         
         background: rgb(255, 255, 255);
@@ -166,10 +167,7 @@ label{
         margin: 60px;
         
         }
-        *{
-            
-            width: 100%;
-        }
+        
 }
 
 
