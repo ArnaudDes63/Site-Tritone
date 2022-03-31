@@ -55,7 +55,7 @@ export default {
 
 .hero{  
   width: 100%;
-  height: 100vh;  
+  height:100vh;  
   background: linear-gradient(rgba(0, 0, 0, 0.555), transparent), url('../assets/background.jpeg');
   background-size: cover; 
   display: flex;
@@ -70,23 +70,23 @@ img{
   position: fixed;
   right: 0; 
   bottom: 1%;
-  width: 250px;
+  width: 100px;
   height: 250px;
 }
 
 .btn{
-  position: absolute;
+  position: fixed;
   font-weight: bold;  
   color: #FFFFFF !important;
-  font-size: 14px;
+  font-size: 20px;
   text-shadow: 2px 3px 1px #FF2EFF;
   box-shadow: 4px 3px 5px #B00E90;
-  padding: 16px 28px;
+  padding: 0px ;
   border-radius: 10px;
   border: 2px solid #3866A3;
   background: #EE0505;
   top: 110px;
-  width: 20%;  
+  width: 40%;  
 }
 
 .btn:hover {
@@ -177,7 +177,7 @@ img{
 
 .card img {
     position: absolute;
-    width: 250px;
+    width: 200px;
     filter: 
     drop-shadow(0 0.15vw 0.30vw #fffb0e)
     drop-shadow(0 0.15vw 0.30vw #8a8942);
@@ -240,7 +240,7 @@ img{
     width: 130px;
   }
   .btn{
-    width: 150px
+    width: 40%
   }
 }
 
@@ -265,6 +265,11 @@ img{
   .btn{
     width: 150px
   }
+
+  img{  
+        display: block;
+        visibility: hidden;       
+    }
 }
 
 </style>
