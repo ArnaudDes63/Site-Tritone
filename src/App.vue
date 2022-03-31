@@ -40,6 +40,12 @@ export default {
   max-height: 100vh;  
 }
 
+@media(max-height: 1200px){
+  #app{
+    max-height: 5vh;
+}
+}
+
 
 
 
