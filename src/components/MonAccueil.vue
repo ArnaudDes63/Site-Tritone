@@ -239,6 +239,9 @@ img{
   .card img{
     width: 130px;
   }
+  .btn{
+    width: 150px
+  }
 }
 
 @media (max-width : 501px){
