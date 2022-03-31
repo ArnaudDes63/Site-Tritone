@@ -55,7 +55,7 @@ export default {
   justify-content: space-around;
   align-items: flex-start;
   align-content: flex-start;
-  height: 68vh; 
+  height: 75vh; 
   max-width: 1900px;
   margin: 70px  auto;  
 }
