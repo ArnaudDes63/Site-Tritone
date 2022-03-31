@@ -39,8 +39,7 @@ export default {
     bottom: 0;
     left: 0;
     right: 0;
-    width: 100%;
-    height: 100%;
+    width: 100%;    
     display: flex;
     justify-content: center;
     align-items: center;
@@ -58,7 +57,7 @@ export default {
 .modale{
     background: #ceb4b400;
     color: #333;
-    padding: 150px;
+    padding: 40px;
     position: fixed;
     bottom: 10%;
     
@@ -80,6 +79,24 @@ export default {
     width: 500px;
     height: 320px;
 }
+.btn-modale {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
 }
 
+@media (max-width: 500px ){
+    #video-container{
+    width: 300px;
+    height: 400px;
+}
+
+.btn-modale {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+
+}
 </style>
