@@ -6,7 +6,7 @@
     <div class="card">
       <h1>Bienvenue Sur triTone</h1>
       <span>RETRO</span>
-      <img src="../assets/saxophone.svg" alt="">
+      <img class="saxo" src="../assets/saxophone.svg" alt="">
     </div>
 
     
@@ -54,10 +54,12 @@ export default {
 
 
 .hero{  
+  
   width: 100%;
   height:100vh;  
   background: linear-gradient(rgba(0, 0, 0, 0.555), transparent), url('../assets/background.jpeg');
   background-size: cover; 
+  background-position:20%;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -266,7 +268,7 @@ img{
     width: 150px
   }
 
-  img{  
+  .logo{  
         display: block;
         visibility: hidden;       
     }
